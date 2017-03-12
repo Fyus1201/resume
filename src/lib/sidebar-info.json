@@ -1,0 +1,41 @@
+
+{
+  "email": "fyus1201@gmail.com",
+  "phone": "15886886xxxx",
+  "qq": "10086",
+  "applications":[
+    {"title": "Web前端工程师"},
+    {"title": "iOS开发工程师"}
+  ],
+  "techs": [
+    {
+      "name":"JavaScript",
+      "num":"width: 80%"
+    }, {
+      "name":"Objective-C",
+      "num":"width: 78%"
+    },
+    {
+      "name":"HTML",
+      "num":"width: 85%"
+    },
+    {
+      "name":"CSS",
+      "num":"width: 80%"
+    },{
+      "name":"Node.js",
+      "num":"width: 53%"
+    },{
+      "name":"C语言",
+      "num":"width: 50%"
+    }, {
+      "name":"PHP",
+      "num":"width: 30%"
+    }
+  ],
+  "education": "本科 / 浙江水利水电学院",
+  "github": "https://github.com/Fyus1201",
+  "work": "2年",
+  "info": "小红 / 男 / 92年"
+
+}
