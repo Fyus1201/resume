@@ -9,17 +9,18 @@
                     <li class="ExperienceData" v-for="data in experience.datas">
                         <div class="circle"></div>
                         <h4>{{data.title}}
-                            <a v-if="data.github" :href="data.github" target="_blank">
-                                <i class="icon iconfont icon-module-link"></i>源码
-                            </a>
-                            <a v-if="data.demo" :href="data.demo" target="_blank">
-                                <i class="icon iconfont icon-module-link"></i>Demo
-                            </a>
-
+                            <span v-for="urlData in data.urlDatas">
+                                <a :href="urlData.url" target="_blank" >
+                                    <i class="icon iconfont icon-module-link"></i>{{urlData.name}}
+                                </a>
+                            </span>
                         </h4>
                         <p>{{data.text}}</p>
                     </li>
                 </ul>
+                <div class="moreDiv">
+                    <a class="moreA" v-if="experience.more" :href="experience.more" target="_blank">查看更多作品</a>
+                </div>
             </li>
         </ul>
     </div>
@@ -88,6 +89,7 @@
         font-size: 18px;
         bottom: 3px;
         color: #000;
+        padding-left: 10px;
     }
 
     .ExperienceDataUl p{
@@ -100,15 +102,38 @@
         color: #616161;
     }
 
+    .ExperienceData span{
+        position: relative;
+        display: block;
+        float: right;
+    }
+
     .ExperienceData a{
         font-size: 13px;
         border: 1px solid #4db6ac;
         color: #4db6ac;
         padding: 1px 3px;
-        -webkit-border-radius: 5px;
         border-radius: 5px;
         margin-left: 7px;
-        text-decoration: none
+        text-decoration: none;
+
     }
+
+    .moreDiv{
+        text-align: center;
+        margin-top: -15px;
+        height: 25px;
+    }
+    .moreA{
+        font-size: 15px;
+        color: #00796b;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+    }
+    .moreA:hover{
+        font-size: 18px;
+
+    }
+
 
 </style>

@@ -19,9 +19,9 @@
         <li>
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Basic info. 基本信息</dt>
             <dd> 个人信息：<span>{{info}}</span></dd>
-            <dd> 教育经历：<span >{{education}}</span></dd>
-            <dd> 工作经验：<span >{{work}}</span></dd>
-            <dd> GitHub：<a :href="github" target="_blank">{{github}}</a></dd>
+            <dd> 教育经历：<span>{{education}}</span></dd>
+            <dd> 工作经验：<span>{{work}}</span></dd>
+            <dd v-if="github"> GitHub：<a :href="github" target="_blank">{{github}}</a></dd>
         </li>
         <li>
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Tech. 技能点</dt>
@@ -43,7 +43,7 @@
 
     import sidebarInfo from '../lib/sidebar-info.json';
 
-    const chatQQ = "http://wpa.qq.com/msgrd?v=3&amp;uin=" + sidebarInfo.qq + "&amp;site=qq&amp;menu=yes";
+    const chatQQ = "http://wpa.qq.com/msgrd?v=3&uin=" + sidebarInfo.qq + "&site=qq&menu=yes";
     const chatMail = "mailto:" + sidebarInfo.email;
 
     export default {
@@ -73,7 +73,7 @@
         list-style: none
     }
     .sidebar-li{
-        padding-top: 20px;
+        padding-top: 30px;
         list-style: none;
     }
 

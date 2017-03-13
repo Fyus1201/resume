@@ -42,7 +42,7 @@
 <style>
 
     .sidebar-me{
-        margin: 25px 0 20px;
+        margin: 35px 0 20px;
     }
 
     .sidebar-me dt{

@@ -1,8 +1,8 @@
 
 {
   "email": "fyus1201@gmail.com",
-  "phone": "15886886xxxx",
-  "qq": "10086",
+  "phone": "15868862623",
+  "qq": "438239428",
   "applications":[
     {"title": "Web前端工程师"},
     {"title": "iOS开发工程师"}
@@ -10,32 +10,42 @@
   "techs": [
     {
       "name":"JavaScript",
-      "num":"width: 80%"
+      "num":"width: 75%"
     }, {
       "name":"Objective-C",
-      "num":"width: 78%"
-    },
-    {
+      "num":"width: 73%"
+    }, {
       "name":"HTML",
-      "num":"width: 85%"
-    },
-    {
+      "num":"width: 82%"
+    }, {
       "name":"CSS",
-      "num":"width: 80%"
+      "num":"width: 85%"
+    }, {
+      "name":"jQuery",
+      "num":"width: 73%"
+    }, {
+      "name":"BootStrap",
+      "num":"width: 75%"
+    }, {
+      "name":"Webpack",
+      "num":"width: 65%"
+    }, {
+      "name":"Vue.js",
+      "num":"width: 55%"
     },{
       "name":"Node.js",
-      "num":"width: 53%"
-    },{
+      "num":"width: 43%"
+    }, {
       "name":"C语言",
-      "num":"width: 50%"
+      "num":"width: 52%"
     }, {
       "name":"PHP",
-      "num":"width: 30%"
+      "num":"width: 35%"
     }
   ],
   "education": "本科 / 浙江水利水电学院",
   "github": "https://github.com/Fyus1201",
-  "work": "2年",
-  "info": "小红 / 男 / 92年"
+  "work": "2年工作经验",
+  "info": "寿煜宇 / 男 / 92年"
 
 }

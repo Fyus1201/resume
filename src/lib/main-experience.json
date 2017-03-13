@@ -5,22 +5,77 @@
       "name": "个人作品",
       "datas": [
         {
-          "title":"HTML / CSS",
-          "github": "https://github.com/Fyus1201/store-PC",
-          "demo": "http://ogc0e7ydq.bkt.clouddn.com",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        }, {
-          "title":"JavaScript",
-          "github": "www.baidu.com",
+          "title":"竹影音乐——iOS音乐播放器（Objective-C）",
+          "urlDatas":[
+            {
+              "name":"源代码",
+              "url":"https://github.com/Fyus1201/music"
+            }
+          ],
           "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
         },{
-          "title":"其他",
-          "github": "https://github.com/Fyus1201/store-PC",
-          "demo": "http://ogc0e7ydq.bkt.clouddn.com",
+          "title":"泱农易购，农贸商城（HTML/CSS/JavaScript）",
+          "urlDatas":[
+            {
+              "name":"PC端",
+              "url":"http://ogc0e7ydq.bkt.clouddn.com"
+            },{
+              "name":"移动端",
+              "url":"http://ogc00kj0k.bkt.clouddn.com"
+            },{
+              "name":"源码2",
+              "url":"https://github.com/Fyus1201/store-PC"
+            },{
+              "name":"源码1",
+              "url":"https://github.com/Fyus1201/store-APP"
+            }
+          ],
           "text": "了解前端安全、性能优化方面的一些知识"
+        }, {
+          "title":"浙江永润——bootstrap搭建的公司官网",
+          "urlDatas":[
+            {
+              "name":"Demo",
+              "url":"http://oh2n0fb4m.bkt.clouddn.com"
+            },{
+              "name":"源代码",
+              "url":"https://github.com/Fyus1201/yonrun"
+            }
+          ],
+          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+        }, {
+          "title":"百度章鱼——iOS电商app（Objective-C）",
+          "urlDatas":[
+            {
+              "name":"源代码",
+              "url":"https://github.com/Fyus1201/nuomi"
+            }
+          ],
+          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+        }, {
+          "title":"nodejs 制作的爬虫——Node.js搭建的公司官网（JavaScript）",
+          "urlDatas":[
+           {
+              "name":"源代码",
+              "url":"https://github.com/Fyus1201/crawler"
+            }
+          ],
+          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+        }, {
+          "title":"canvas裁剪图片（JavaScript）",
+          "urlDatas":[
+            {
+              "name":"Demo",
+              "url":"http://omqzg9ml4.bkt.clouddn.com"
+            }, {
+              "name":"源代码",
+              "url":"https://github.com/Fyus1201/getImg"
+            }
+          ],
+          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
         }
-      ]
-
+      ],
+      "more":"https://github.com/Fyus1201"
     }, {
       "name": "工作经验",
       "datas": [

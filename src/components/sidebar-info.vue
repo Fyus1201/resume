@@ -2,13 +2,13 @@
 <template>
 
     <ul class="sidebar-info">
-        <li class="sidebar-li">
+        <li class="sidebar-li sidebar-li_other">
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Contact. 联系方式</dt>
             <dd> <i class="icon iconfont icon-qq"></i>企鹅：<a :href="chatQQ" target="_blank">{{qq}}</a></dd>
             <dd> <i class="icon iconfont icon-shouji"></i>电话：<span >{{phone}}</span ></dd>
             <dd> <i class="icon iconfont icon-youxiang"></i>邮箱：<a :href="chatMail" target="_blank">{{email}}</a></dd>
         </li>
-        <li>
+        <li class="sidebar-li_other">
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Application. 应聘岗位</dt>
             <ul>
                 <li class="sidebarTech-li application-li" v-for="application in applications">
@@ -16,14 +16,14 @@
                 </li>
             </ul>
         </li>
-        <li>
+        <li class="sidebar-li_other">
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Basic info. 基本信息</dt>
             <dd> 个人信息：<span>{{info}}</span></dd>
             <dd> 教育经历：<span >{{education}}</span></dd>
             <dd> 工作经验：<span >{{work}}</span></dd>
-            <dd> GitHub：<a :href="github" target="_blank">{{github}}</a></dd>
+            <dd v-if="github"> GitHub：<a :href="github" target="_blank">{{github}}</a></dd>
         </li>
-        <li>
+        <li class="sidebar-li_other">
             <dt><i class="icon iconfont iconfontMed icon-tag"></i>Tech. 技能点</dt>
             <ul class="sidebarTech">
                 <li class="sidebarTech-li" v-for="tech in techs">
@@ -43,7 +43,7 @@
 
     import sidebarInfo from '../lib/sidebar-info.json';
 
-    const chatQQ = "http://wpa.qq.com/msgrd?v=3&amp;uin=" + sidebarInfo.qq + "&amp;site=qq&amp;menu=yes";
+    const chatQQ = "http://wpa.qq.com/msgrd?v=3&uin=" + sidebarInfo.qq + "&site=qq&menu=yes";
     const chatMail = "mailto:" + sidebarInfo.email;
 
     export default {
@@ -75,6 +75,10 @@
     .sidebar-li{
         padding-top: 20px;
         list-style: none;
+    }
+
+    .sidebar-li_other {
+        margin-top: 20px;
     }
 
     .sidebar-info dt{
