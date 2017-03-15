@@ -106,6 +106,7 @@
         position: relative;
         display: block;
         float: right;
+        height: 18px;
     }
 
     .ExperienceData a{
@@ -117,6 +118,10 @@
         margin-left: 7px;
         text-decoration: none;
 
+    }
+    .ExperienceData a:hover{
+        border: 1px solid #53cec4;
+        color: #53cec4;
     }
 
     .moreDiv{
@@ -131,7 +136,7 @@
         transition: all 0.2s ease-in-out;
     }
     .moreA:hover{
-        font-size: 18px;
+        color: #53cec4;
 
     }
 

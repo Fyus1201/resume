@@ -6,46 +6,13 @@
       "datas": [
         {
           "title":"HTML / CSS",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+          "text": "能够熟练使用HTML, CSS"
         }, {
           "title":"JavaScript",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        },{
-          "title":"JavaScript",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        },{
-          "title":"JavaScript",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+          "text": "能够熟练使用HTML, CSS"
         },{
           "title":"其他",
-          "text": "了解前端安全、性能优化方面的一些知识"
-        }
-      ]
-
-    }, {
-      "name": "iOS开发",
-      "datas": [
-        {
-          "title":"Objective-C",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        }, {
-          "title":"JavaScript",
-          "text": "能够编写语义化的 / Autoprefixer 等CSS预处理和后处理方法、工具"
-        },{
-          "title":"其他",
-          "text": "了解前端安全、性能优化方面的一些知识"
-        }
-      ]
-
-    }, {
-      "name": "Web后端",
-      "datas": [
-        {
-          "title":"Node.js",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复SS预处理和后处理方法、工具"
-        }, {
-          "title":"PHP",
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复SS预处理和后处理方法、工具"
+          "text": "能够熟练使用HTML, CSS"
         }
       ]
 

@@ -12,67 +12,7 @@
               "url":"https://github.com/Fyus1201/music"
             }
           ],
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        },{
-          "title":"泱农易购，农贸商城（HTML/CSS/JavaScript）",
-          "urlDatas":[
-            {
-              "name":"PC端",
-              "url":"http://ogc0e7ydq.bkt.clouddn.com"
-            },{
-              "name":"移动端",
-              "url":"http://ogc00kj0k.bkt.clouddn.com"
-            },{
-              "name":"源码2",
-              "url":"https://github.com/Fyus1201/store-PC"
-            },{
-              "name":"源码1",
-              "url":"https://github.com/Fyus1201/store-APP"
-            }
-          ],
-          "text": "了解前端安全、性能优化方面的一些知识"
-        }, {
-          "title":"浙江永润——bootstrap搭建的公司官网",
-          "urlDatas":[
-            {
-              "name":"Demo",
-              "url":"http://oh2n0fb4m.bkt.clouddn.com"
-            },{
-              "name":"源代码",
-              "url":"https://github.com/Fyus1201/yonrun"
-            }
-          ],
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        }, {
-          "title":"百度章鱼——iOS电商app（Objective-C）",
-          "urlDatas":[
-            {
-              "name":"源代码",
-              "url":"https://github.com/Fyus1201/nuomi"
-            }
-          ],
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        }, {
-          "title":"nodejs 制作的爬虫——Node.js搭建的公司官网（JavaScript）",
-          "urlDatas":[
-           {
-              "name":"源代码",
-              "url":"https://github.com/Fyus1201/crawler"
-            }
-          ],
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
-        }, {
-          "title":"canvas裁剪图片（JavaScript）",
-          "urlDatas":[
-            {
-              "name":"Demo",
-              "url":"http://omqzg9ml4.bkt.clouddn.com"
-            }, {
-              "name":"源代码",
-              "url":"https://github.com/Fyus1201/getImg"
-            }
-          ],
-          "text": "能够编写语义化的 HTML，模块化的 CSS，完成较复杂的布局,熟悉 Less / Sass / Autoprefixer 等CSS预处理和后处理方法、工具"
+          "text": "吧啦吧啦吧啦"
         }
       ],
       "more":"https://github.com/Fyus1201"
@@ -80,14 +20,8 @@
       "name": "工作经验",
       "datas": [
         {
-          "title":"深度商店项目（2015.7 - 至今）",
-          "text": "参与 Linux Deepin 深度商店V4.0 的前端开发工作，根据设计图完成项目的大部分样式，完成了首页、搜索列表、软件详情、软件分类、专题、关于等页面，其中有评论交互、三个不同的轮播图、侧边栏左右拖动、搜索交互等内容，项目采用 WebApp 的形式，运行在 Qt WebKit 上，后端与 deepin 操作系统深度整合，支持一键安装、更新和卸载软件"
-        }, {
-          "title":"JavaScript（2015.7 - 至今）",
-          "text": "能够编写语义化的 / Autoprefixer 等CSS预处理和后处理方法、工具"
-        },{
-          "title":"其他（2015.7 - 至今）",
-          "text": "了解前端安全、性能优化方面的一些知识"
+          "title":"",
+          "text": ""
         }
       ]
 

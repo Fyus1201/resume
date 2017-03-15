@@ -40,4 +40,8 @@
         text-decoration: none;
     }
 
+    .aside-a:hover{
+        color: #b3f7f9;
+    }
+
 </style>
