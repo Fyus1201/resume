@@ -36,12 +36,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icarusion/vue-vueRouter-webpack.git"
+    "url": "git+https://github.com/Fyus1201/resume.git"
   },
   "author": "fyus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/icarusion/vue-vueRouter-webpack/issues"
+    "url": "https://github.com/Fyus1201/resume/issues"
   },
-  "homepage": "https://github.com/icarusion/vue-vueRouter-webpack#readme"
+  "homepage": ""
 }
